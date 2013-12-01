@@ -1,0 +1,7 @@
+$ sh run.sh 
+Language            Big table      1000 elements  100 elements   10 elements    
+C (handmade)        1.42           0.84           0.72           0.7            
+GLib                1.95           1.15           1.2            1.27           
+C++ (unordered_map) 3.28           1.72           1.61           1.23           
+C++ (map)           7.74           4.09           2.59           0.91           
+Qt                  1.88           1.19           1.1            1.04
